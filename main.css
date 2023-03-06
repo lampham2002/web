@@ -22,8 +22,8 @@ html{
 }
 .nav li {
     display: inline-block;
+    
     position: relative;
-
 }
 .nav li a{
     color: aliceblue;
@@ -53,7 +53,22 @@ html{
  li:hover .subnav {
     display: block;
 }
+.search-btn{
+    float: right;
+    color: aliceblue;
+    line-height: 46px;
+    text-align: center;
+    
+    
+    
+}
+.search-icon{
+    background-color: brown;
+    padding: 0 16px;
+    height: 30px;
+    line-height: 46px;
 
+}
 #siler{
     margin-top:46px ;
     padding-top: 50%;
